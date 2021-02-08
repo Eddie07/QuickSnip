@@ -1,0 +1,24 @@
+{
+  "name": "__MSG_EXTENSION_NAME__",
+  "version": "1.0",
+  "description": "Extension",
+  "default_locale": "en",
+  "permissions": [
+  "contextMenus", 
+  "clipboardRead", 
+  "clipboardWrite", 
+  "activeTab", 
+    "tabs",
+    "storage"
+  ],
+   "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "options_page": "options.html",  
+  "background": {
+      "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
